@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>이미지 맵 링크</title>
+    </head>
+
+    <body>
+        <h2>웹 브라우저 사이트 방문</h2>
+        <img src="images/web-browsers.jpg" usemap="#b_map"> <!-- # map name 설정 -->
+
+        <!-- 이미지 맵 정의 -->
+        <map name="b_map">
+            <area shape="circle" coords="130,120,110" href="http://www.google.com" title="크롬"> <!-- coords = 좌표 -->
+            <area shape="circle" coords="410,120,110" href="http://www.microsoft.com" title="인터넷 익스플로">
+        </map>
+
+    </body>
+
+</html>

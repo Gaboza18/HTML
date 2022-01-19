@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            .style_type_none {
+                list-style-type: none;
+                /* li 앞 아이콘 삭제 -> 메뉴만들때 자주사용 */
+            }
+
+            .style_type_square {
+                list-style-type: square;
+                /* 리스트 앞 사각형 아이콘 생성 */
+            }
+
+            .list_style_type {
+                list-style: lower-alpha inside; /* a~z 아이콘 생성+들여쓰기 */
+            }
+            .style_type_image{ /* 이미지를 이용하여 아이콘 생성 */
+                list-style-image: url(../images/address-book-icon.png);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>그린 컴퓨터</h1>
+        <ul class="style_type_none">
+            <li>회사소개</li>
+            <li>공지사항</li>
+            <li>자주 묻는 질문</li>
+            <li>자유 게시판</li>
+        </ul>
+
+        <ul class="style_type_square">
+            <li>회사소개</li>
+            <li>공지사항</li>
+            <li>자주 묻는 질문</li>
+            <li>자유 게시판</li>
+        </ul>
+
+        <ul class="list_style_type">
+            <li>회사소개</li>
+            <li>공지사항</li>
+            <li>자주 묻는 질문</li>
+            <li>자유 게시판</li>
+        </ul>
+
+        <ul class="style_type_image">
+            <li>회사소개</li>
+            <li>공지사항</li>
+            <li>자주 묻는 질문</li>
+            <li>자유 게시판</li>
+        </ul>
+    </body>
+
+</html>

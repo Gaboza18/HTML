@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>배경이미지 지정하기</title>
+        <style>
+            .bg1 {
+                width: 900px;
+                height: 700px;
+                border: 1px solid #000;
+
+                background-image: url(../images/testimage.jpg);
+                background-repeat: no-repeat; /* 지정한 이미지 크기보다 크거나 작을때 동일한 이미지가 반복된다 */
+                /* background-size: cover; /* 강제로 지정한 크기만큼 확대 */
+                /* background-size: 200px 150px; /* 그림의 크기를 조정할수 있다. */
+                background-size: 60% 40%;
+                /* 지정한 크기의 가로 세로 비율을 조정할수 있다. */
+                background-position: center center;
+                /* 수평위치:left, center, right , 수직위치:top, center, bottom */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bg1">
+
+        </div>
+    </body>
+
+</html>

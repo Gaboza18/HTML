@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>select 입력형식</title>
+    </head>
+
+    <body>
+        <form method="GET">
+
+            <label>당신의 혈액형을 선택<br>
+                <!-- option 태그의 value가 실제로 전송되는 값 -->
+
+                <select name="blood type">
+                    <option value="a">A형</option>
+                    <option value="b">B형</option>
+                    <option value="o">O형</option>
+                    <option value="ab">AB형</option>
+                </select>
+
+            </label><br><br>
+
+            <label>좋아하는 과일 선택 <br>
+                <!-- size: 목록에서 보이는 항목의 갯수, multiple: 다중 선택 -->
+
+                <select name="fruits" size="4" multiple>
+                    <option value="1">사과</option>
+                    <option value="2">배</option>
+                    <option value="3">포도</option>
+                    <option value="4">수박</option>
+                    <option value="5">복숭아</option>
+                </select>
+
+            </label><br><br>
+
+            <input type="submit" value="전송">
+        </form>
+    </body>
+
+</html>

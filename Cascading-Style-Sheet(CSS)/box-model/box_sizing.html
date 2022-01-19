@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Box-Sizing</title>
+        <style> /* f12 영역 확인 가능, 두개의 박스 차이점 비교*/
+            div{
+                border: 2px solid red;
+                display: inline-block;
+            }
+            .box1{
+                box-sizing: content-block;
+                width: 300px;
+                height: 150px;
+                padding: 30px;
+            }
+            .box2{
+                box-sizing: border-box;
+                width: 300px;
+                height: 150px;
+                padding: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box1">
+            box-sizing-"content-box"
+        </div>
+        <div class="box2">
+            box-sizing-"boder-box"
+        </div>
+    </body>
+
+</html>

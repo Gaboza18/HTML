@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>datalist 입력형식</title>
+    </head>
+
+    <body>
+        <form method="get">
+            <fieldset>
+                <legend>관심분야 선택</legend>
+                <label>관심분야:
+                    <input type="text" name="interest" list="optlist">
+                </label>
+
+                <datalist id="optlist">
+                    <option value="독서"></option>
+                    <option value="영화"></option>
+                    <option value="수영"></option>
+                    <option value="음악"></option>
+                    <option value="골프"></option>
+                </datalist>
+
+            </fieldset>
+        </form>
+    </body>
+
+</html>

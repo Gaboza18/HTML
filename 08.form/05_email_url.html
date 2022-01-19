@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>이메일과 URL</title>
+    </head>
+
+    <body>
+        <h2>이메일과 URL 입력형식</h2>
+        <form method="POST" action="result.jsp">
+
+            <label>이메일 주소 <input type="email" name="email" placeholder="abc@abc.com"></label><br> <!-- 이메일 주소 양식에 맞게 입력 유도 -->
+            <label>사이트 이동 <input type="url" name="SiteUrl" placeholder="http://example.com" required></label><br> <!-- required = 해당필드가 필수 입력란 임을 지정한다. -->
+            <label>전화 번호:  <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="000-0000-0000"></label><br> 
+            <!-- pattern="[0-9중에 입력]{숫자 3개입력}" 입력요청양식 -->
+            <input type="submit" value="전송">
+
+        </form>
+    </body>
+
+</html>

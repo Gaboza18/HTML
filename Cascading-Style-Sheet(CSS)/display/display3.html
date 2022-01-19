@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display inline block 속성</title>
+
+        <style>
+            nav ul li {
+                list-style-type: none;
+                /* 메뉴 아이콘 삭제 */
+                display: inline-block;
+                /* 메뉴 한줄로 표시 */
+                width: 220px; /* inline block 에서는 적용이 가능하다 */
+                margin: 20px;
+                /* 메뉴간 간격 */
+                border-top: 2px solid rgb(158, 203, 240);
+                /* 메뉴 위 줄 생성 */
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: rgb(36, 72, 231);
+                font-weight: 700;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <!-- block 요소 -->
+                <li><a href="#">애완견의 종류</a></li>
+                <li><a href="#">입양하기</a></li>
+                <li><a href="#">건강 돌보기</a></li>
+                <li><a href="#">더불어 살기</a></li>
+            </ul>
+        </nav>
+    </body>
+
+</html>

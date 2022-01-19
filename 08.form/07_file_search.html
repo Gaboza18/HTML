@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>file/search 양식</title>
+    </head>
+
+    <body>
+        <h2>File과 Search 입력형식</h2>
+        <form method="GET" action="search.jsp">
+
+            <label>파일 선택: <input type="file" name="upload_file"></label><br><br>
+            <labe1>이미지 파일 선택: <input type="file" name="upload_image" multiple accept="image/*"></labe1><br><br> <!-- multiple accept="image/* 이미지 파일만 선택한다" -->
+            <label>검색어 입력 <input type="search" name="world"></label><br><br>
+            <input type="submit" value="전송">
+
+        </form>
+    </body>
+
+</html>

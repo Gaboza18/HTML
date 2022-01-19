@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+#title {
+    font-size: 28px;
+    color: rgba(0, 0, 255, 0.7);
+}
+
+.over1{
+    font-family: "HY견고딕" 돋움, 굴림; /* " " : 먼저수행 */
+    font-size: 12pt;
+    line-height: 1.5; /* 문장사이 간격 */
+    letter-spacing: 1.3px; /* 글자간격 */
+    color: green;
+    text-align: right;
+}
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1em;
+}

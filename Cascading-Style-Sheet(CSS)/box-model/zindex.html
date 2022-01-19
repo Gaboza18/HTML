@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>z-index</title>
+        <style>
+            #container {
+                position: relative;
+            }
+
+            .box {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                border: 1px solid #000;
+                font-size: 30px;
+            }
+
+            #crd1 {
+                left: 50px;
+                top: 50px;
+                background-color: red;
+                z-index: 1; /* z-index: n; (n=겹치는 순서 값이 낮을수록 밑 높으수록 위 배치) */
+            }
+            #crd2{
+                left:110px;
+                top:70px;
+                background-color: yellow;
+                z-index: 3;
+            }
+            #crd3{
+                left:70px;
+                top:110px;
+                background-color: blue;
+                z-index: 2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <!-- 부모 포지션 -->
+            <div class="box" id="crd1">1</div>
+            <div class="box" id="crd2">3</div>
+            <div class="box" id="crd3">2</div>
+        </div>
+    </body>
+
+</html>

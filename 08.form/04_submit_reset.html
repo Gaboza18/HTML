@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Submit/reset</title>
+    </head>
+
+    <body>
+        <h2>메일링 리스트 등록</h2>
+
+        <form method="POST" action="register.jsp">
+            <!--<form method="GET" action="register.jsp">--> <!-- GET 방식 -->
+            <label>메일주소<input type="text" name="email"></label>
+            <input type="submit" value="전송">
+            <input type="reset" value="다시입력"> <!-- 입력한 데이터 전체 삭제한다 -->
+
+        </form>
+    </body>
+
+</html>

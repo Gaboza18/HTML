@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display 속성</title>
+        <style>
+            #inline img{ /* 한줄에 모든요소가 출력된다 */ /* 인라인 요소 */
+                padding: 10px;
+            }
+            #block img{ /* 한줄에 한개씩 세로로 출력 */ /* 블록요소 */
+                display: block;
+                margin: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="inline"> <!-- inline 속성 -->
+            <img src="../images/pic1.jpg"> <!-- img: 인라인 요소(하나의 라인에 포함) -->
+            <img src="../images/pic2.jpg">
+            <img src="../images/pic3.jpg">
+        </div>
+
+        <div id="block"> <!-- block 속성 -->
+            <img src="../images/pic1.jpg">
+            <img src="../images/pic2.jpg">
+            <img src="../images/pic3.jpg">
+        </div>
+    </body>
+
+</html>

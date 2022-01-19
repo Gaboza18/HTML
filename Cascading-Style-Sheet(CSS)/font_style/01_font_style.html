@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>글자 관련 속성</title>
+        <link rel ="stylesheet" href="font_style.css">
+        <style> /* 외부폰트 사용 */
+            @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+            .ng-font{
+                font-family: "Nanum Pen Script";
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="title">글자 관련 스타일</div>
+        <div id="over2">글자관련 스타일속성을 시용하여 글꼴, 글자의 크기, 글자의 모양
+            , 색상, 등을 설정한다.
+            글자관련 스타일속성을 시용하여 글꼴, 글자의 크기, 글자의 모양
+            , 색상, 등을 설정한다.
+            글자관련 스타일속성을 시용하여 글꼴, 글자의 크기, 글자의 모양
+            , 색상, 등을 설정한다.
+        </div>
+        <p class="over1">글자는 녹색의 12pt로 오른쪽 정렬하여 나타납니다.</p>
+        <p>브라우저 기본 글꼴 사용</p>
+        <p class="ng-font">나눔고딕 펜 스크립트 사용</p>
+
+        <!-- em: 부모 요소의 M자의 크기를 기준으로 글꼴지정 -->
+        <!-- 부모의 글꼴 크기가 지정되지 않았을 경우 16px이 기본크기 -->
+        <h1>3em 크기를 가진 제목</h1>
+        <p>1em 크기를 가진 단락</p>
+    </body>
+
+</html>

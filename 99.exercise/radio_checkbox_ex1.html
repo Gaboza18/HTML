@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>라디오/체크박스 연습</title>
+    </head>
+
+    <body>
+        <form method="GET">
+            <!-- GET 방식 데이터를 입력하고 위 url주소에 데이터 전송내역을 확인할수 있다. -->
+            <fieldset>
+                <legend><strong>신청 과목</strong></legend></br>
+                <label>이달에 신청할 과목을 선택하세요.(1과목만 가능)</label></br></br> <!-- <p> = <label> -->
+                <input type="radio" name="subject" value="1">회화
+                <input type="radio" name="subject" value="2">문법
+                <input type="radio" name="subject" value="3">작문
+            </fieldset></br>
+
+            <fieldset>
+                <legend><strong>메일링</strong></legend></br>
+                <label>메일로 받고 싶은 뉴스 주제를 선택해 주세요.(복수 선택 가능)</label></br></br>
+                <input type="checkbox" name="newsubject" value="1">해외단신
+                <input type="checkbox" name="newsubject" value="2">5분회화
+                <input type="checkbox" name="newsubject" value="3">모닝팝스
+            </fieldset></br>
+
+            <input type="submit" value="제출"> <!-- 제출버튼 생성 -->
+
+        </form>
+    </body>
+
+</html>

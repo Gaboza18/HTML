@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "맑은 고딕";
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    background-color: coral;
+    margin: 20px 0;
+}
+
+section {
+    float: right;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: coral;
+    margin: 10px 0;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+article {
+    float: right;
+    width: 70%;
+    margin: 10px 0;
+}
+
+article section {
+    background-color: coral;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: coral;
+}

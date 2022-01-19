@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>입력값을 받아 합하는 문제</title>
+    </head>
+
+    <body>
+        <!-- parseInt() : 문자열을 숫자로 변환하는 함수 -->
+        <!--
+        <form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)">
+
+            <input type="number" name="num1" value="0"> +
+            <input type="number" name="num2" value="0"> =
+
+            <output name="result"></output>
+        </form>
+        -->
+
+        <h3>예약인원</h3>
+        <form oninput="result.value=parseInt(adult.value)+parseInt(children.value)">
+
+            <label>어른 <input type="number" name="adult" value="0"></label><br><br>
+            <label>어린이 <input type="number" name="children" value="0"></label><br><br>
+            <label>총 원: <output name="result"></output></label>
+            
+        </form>
+    </body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>라디오/체크박스 연습</title>
+    </head>
+
+    <body>
+        <!-- 보안성 낮을때 GET -->
+        <form method="GET">
+
+            <!-- 라디오 버튼 
+             1.라디오 버튼은 중복 선택 불가 
+             2.같은 그룹의 선택사항 경우, name을 동일하게 설정함 -->
+
+            <h3>성별 구분</h3>
+            <!-- 서버로 전송시 value에 설정된 값이 전달됨 -->
+            <input type="radio" name="gender" value="1" checked>남자</br> <!-- checked 기본적으로 체크가 되있음 -->
+            <input type="radio" name="gender" value="2">여자
+
+            <!-- 체크 박스 
+             1.체크 박스 버튼은 중복 선택 가능   
+             2.같은 그룹의 선택사항 경우, name을 동일하게 설정함
+             3.여러 개의 값이 선택되어 전송할 경우, 배열형식으로 전달됨-->
+
+            <h3>취미 활동</h3>
+            <input type="checkbox" name="hobby" value="1">등산</br>
+            <input type="checkbox" name="hobby" value="2">골프</br>
+            <input type="checkbox" name="hobby" value="3">영화감상</br>
+
+        </form>
+    </body>
+
+</html>

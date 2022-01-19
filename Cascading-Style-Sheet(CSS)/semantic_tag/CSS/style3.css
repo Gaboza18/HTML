@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "맑은 고딕";
+    font-size: 14px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    /* 컨텐츠 가운데로 출력 */
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+}
+
+header {
+    position: relative;
+    height: 280px;
+    background-image: url(../../images/bg.png);
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    position: absolute;
+    font-size: 48px;
+    top: 120px;
+    right: 20px;
+    color: #f5f595;
+    text-shadow: 1px 2px 2px #000;
+}
+
+header h2 {
+    position: absolute;
+    font-size: 25px;
+    top: 190px;
+    right: 20px;
+    color: yellow
+}
+
+.navi {
+    width: 960px;
+    height: 60px;
+    background-color: rgb(63, 2, 2);
+}
+
+.navi ul {
+    list-style-type: none;
+    line-height: 40px;
+    padding: 10px 80px;
+}
+
+.navi ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-right: 120px;
+}
+
+.navi a {
+    text-decoration: none;
+    width: 150px;
+    color: white
+}
+
+.navi a:hover {
+    /* 마우스를 대면 반응한다 */
+    color: #ff0;
+    /* 노란색으로 변한다 */
+    text-shadow: 1px 2px 2px #777;
+}
+
+#content {
+    background-color: rgb(161, 225, 236);
+    float: left;
+    width: 720px;
+    padding: 10px;
+}
+
+#content .title {
+    margin: 10px 0;
+
+}
+
+#content p {
+    margin-bottom: 8px;
+}
+
+#banner {
+    margin: 10px;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(229, 253, 224);
+    float: right;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    margin-bottom: 10px;
+}
+
+.sidebar img {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+footer {
+    clear:both;
+    background-color: rgb(7, 63, 2);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
